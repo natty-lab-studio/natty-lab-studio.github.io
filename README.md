@@ -11,3 +11,5 @@ This repository contains static pages served by GitHub Pages. Keep the root home
 | `dailytodo/config/ads.json` | `https://natty-lab-studio.github.io/dailytodo/config/ads.json` | Remote ad setting |
 
 Policy pages provide full English and Korean text. Keep the existing URLs, language anchors and deletion links working when editing. Review the text and effective date before publishing policy changes. Check the live URLs after deployment because GitHub Pages may take time to update.
+
+Legacy `/privacy/` and `/terms/` URLs use static HTML refresh redirects to the corresponding `/dailytodo/` policy pages, with direct links as a fallback.
