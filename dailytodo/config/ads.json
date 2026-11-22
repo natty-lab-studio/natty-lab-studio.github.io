@@ -1,1 +1,5 @@
-{"adsEnabled": false, "dailyLimit": 2, "configVersion": 2}
+{
+  "adsEnabled": true, 
+  "dailyLimit": 2, 
+  "configVersion": 3
+}
