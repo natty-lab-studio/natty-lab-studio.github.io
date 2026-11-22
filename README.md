@@ -1,4 +1,4 @@
-# Daily Todo public site
+# T-todo public site
 
 This repository contains static pages served by GitHub Pages. Keep the root homepage and `app-ads.txt` at their existing paths.
 
