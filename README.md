@@ -16,6 +16,6 @@ Legacy `/privacy/` and `/terms/` URLs use static HTML refresh redirects to the c
 
 ## macOS release checklist
 
-1. Attach `뚜두.dmg` to a public release in this repository.
+1. Attach `T-todo.dmg` to a public release in this repository.
 2. Use the `releases/latest/download/` URL in both buttons while this repository's latest release is reserved for T-todo. If this repository also releases other products, use the T-todo DMG's versioned asset URL in both buttons and update both URLs for each new T-todo release.
-3. Open the chosen URL in a signed-out browser and confirm it downloads `뚜두.dmg`. Remove `hidden` from both download blocks in `dailytodo/index.html` after this check, then publish the page.
+3. Open the chosen URL in a signed-out browser and confirm it downloads `T-todo.dmg`.
