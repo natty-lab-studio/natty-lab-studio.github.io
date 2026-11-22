@@ -13,3 +13,9 @@ This repository contains static pages served by GitHub Pages. Keep the root home
 Policy pages provide full English and Korean text. Keep the existing URLs, language anchors and deletion links working when editing. Review the text and effective date before publishing policy changes. Check the live URLs after deployment because GitHub Pages may take time to update.
 
 Legacy `/privacy/` and `/terms/` URLs use static HTML refresh redirects to the corresponding `/dailytodo/` policy pages, with direct links as a fallback.
+
+## macOS release checklist
+
+1. Attach `뚜두.dmg` to a public release in this repository.
+2. Use the `releases/latest/download/` URL in both buttons while this repository's latest release is reserved for T-todo. If this repository also releases other products, use the T-todo DMG's versioned asset URL in both buttons and update both URLs for each new T-todo release.
+3. Open the chosen URL in a signed-out browser and confirm it downloads `뚜두.dmg`. Remove `hidden` from both download blocks in `dailytodo/index.html` after this check, then publish the page.

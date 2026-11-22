@@ -14,6 +14,13 @@ p, li { color: var(--fg); }
 .muted { color: var(--muted); font-size: .92rem; }
 nav { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 12px 0 24px; }
 a { color: var(--accent); }
+.app-download { margin: 16px 0; }
+.download-button { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; padding: 8px 16px;
+  border-radius: 6px; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; }
+.download-button:hover { text-decoration: underline; }
+.download-button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.app-download details { margin-top: 8px; }
+.app-download summary { cursor: pointer; padding: 9px 0; }
 table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; font-size: .93rem; }
 th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
 th { background: color-mix(in srgb, var(--line) 35%, transparent); }
